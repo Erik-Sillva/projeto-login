@@ -37,8 +37,8 @@ main {
 }
 
 main section#sec-login {
-    height: 500px;
     width: 250px;
+    height: 570px;
     background: #fff;
     box-shadow: 0 0 10px var(--color3);
     border-radius: 20px;
@@ -56,4 +56,76 @@ main section#sec-login > div#container-img {
 
 main section#sec-login > div#container-form {
     padding: 10px;
+}
+
+main section#sec-login > div#container-form h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main section#sec-login > div#container-form p {
+    font-size: 0.8em;
+}
+
+main section#sec-login > div#container-form > form > div.campo {
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background: var(--color1);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main section#sec-login > div#container-form > form > div.campo:nth-child(2) {
+    margin-bottom: 15px;
+}
+
+main section#sec-login > div#container-form > form > div.campo > label {
+    color: #fff;
+    cursor: pointer;
+}
+
+main section#sec-login > div#container-form > form > div.campo > input {
+    width: 70%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main section#sec-login > div#container-form > form > input[type=submit] {
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 1em;
+    border-radius: 5px;
+    background: var(--color3);
+    color: #fff;
+    cursor: pointer;
+}
+
+main section#sec-login > div#container-form > form > input[type=submit]:hover {
+    background: var(--color2);
+}
+
+main section#sec-login > div#container-form > form > a.button {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 4px;
+    margin-top: 10px;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 5px;
+    background: var(--color3);
+    color: #fff;
+}
+
+main section#sec-login > div#container-form > form > a.button:hover {
+    background: var(--color2);
+}
+
+main section#sec-login > div#container-form > form > a.button > i {
+    font-size: 0.8em;
 }

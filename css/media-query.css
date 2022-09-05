@@ -52,4 +52,12 @@
     main section#sec-login > div#container-form {
         width: 50%;
     }
+
+    main section#sec-login > div#container-form h1 {
+        font-size: 2em;
+    }
+    
+    main section#sec-login > div#container-form p {
+        font-size: 1.2em;
+    }
 }
