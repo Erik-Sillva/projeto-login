@@ -38,7 +38,7 @@ main {
 
 main section#sec-login {
     width: 250px;
-    height: 570px;
+    height: 700px;
     background: #fff;
     box-shadow: 0 0 10px var(--color3);
     border-radius: 20px;
@@ -49,7 +49,7 @@ main section#sec-login {
 
 main section#sec-login > div#container-img {
     display: block;
-    background: var(--color2) url(../img/img1.jpg);
+    background: var(--color2) url(../img/img4.jpg);
     background-size: cover;
     height: 200px;
 }
@@ -69,7 +69,7 @@ main section#sec-login > div#container-form p {
 
 main section#sec-login > div#container-form > form > div.campo {
     width: 100%;
-    height: 50px;
+    height: 60px;
     margin: 10px 0;
     border-radius: 8px;
     background: var(--color1);
@@ -86,10 +86,12 @@ main section#sec-login > div#container-form > form > div.campo:nth-child(2) {
 main section#sec-login > div#container-form > form > div.campo > label {
     color: #fff;
     cursor: pointer;
+    font-size: 1.3em;
 }
 
 main section#sec-login > div#container-form > form > div.campo > input {
     width: 75%;
+    height: 60%;
     padding: 5px;
     border-radius: 8px;
 }
@@ -97,7 +99,7 @@ main section#sec-login > div#container-form > form > div.campo > input {
 main section#sec-login > div#container-form > form > input[type=submit] {
     display: block;
     width: 100%;
-    height: 30px;
+    height: 40px;
     font-size: 1em;
     border-radius: 5px;
     background: var(--color3);
@@ -110,14 +112,17 @@ main section#sec-login > div#container-form > form > input[type=submit]:hover {
 }
 
 main section#sec-login > div#container-form > form > a.button {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     width: 100%;
-    height: 30px;
+    height: 40px;
     padding: 4px;
     margin-top: 10px;
     font-size: 1em;
-    text-align: center;
     border-radius: 5px;
+
     background: var(--color3);
     color: #fff;
 }
@@ -128,4 +133,5 @@ main section#sec-login > div#container-form > form > a.button:hover {
 
 main section#sec-login > div#container-form > form > a.button > i {
     font-size: 0.8em;
+    margin-left: 10px;
 }
